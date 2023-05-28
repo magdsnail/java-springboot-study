@@ -1,0 +1,16 @@
+person:
+  name: qinjiang${random.uuid}
+  age: ${random.int}
+  happy: false
+  birth: 2023/05/27
+  maps: { k1: v1, k2: v2 }
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: ${person.hell:hello}_旺财
+    age: 3
+
+dog:
+  last-name: 小黄
