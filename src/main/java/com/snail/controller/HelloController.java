@@ -24,6 +24,6 @@ public class HelloController {
     @GetMapping("/hello")
     @ResponseBody
     public String login() {
-    return "hello, world";
+        return "hello, world";
     }
 }
